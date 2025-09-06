@@ -17,4 +17,15 @@ It allows traders to input token contract addresses, fetches relevant data, anal
 - SQLite / PostgreSQL
 - Flask or Streamlit for UI
 
-## 📂 Project Structure
+## Project Structure
+spoofing-detector/
+│
+├── src/
+│   ├── main.py
+│   ├── analyzer.py
+│   ├── database.py
+│   └── utils.py
+│
+├── tests/
+├── requirements.txt
+└── README.md
