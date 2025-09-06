@@ -19,7 +19,7 @@ It allows traders to input token contract addresses, fetches relevant data, anal
 
 ## Project Structure
 
-spoofing-detector/
+spoofing-detector\
 ├── src/
 
 ── main.py
