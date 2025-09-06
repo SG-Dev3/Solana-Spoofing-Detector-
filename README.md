@@ -21,11 +21,18 @@ It allows traders to input token contract addresses, fetches relevant data, anal
 spoofing-detector\
 
 src:
+
 main.py
+
 analyzer.py
+
 database.py
+
 utils.py
 
-tests\
+
+tests:
+
 requirements.txt
+
 README.md
