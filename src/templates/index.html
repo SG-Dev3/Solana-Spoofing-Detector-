@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Solana Spoofing Detector</title>
+</head>
+
+<body>
+    <h2>🚀 Solana Spoofing Detector</h2>
+    <form method="POST">
+        <label for="contract">Enter Token Contract Address:</label>
+        <input type="text" id="contract" name="contract_address" required>
+        <button type="submit">Scan</button>
+    </form>
+
+    {% if result %}
+    <h3>Result: {{ result }}</h3>
+    {% endif %}
+</body>
+
+</html>
